@@ -15,4 +15,3 @@ t = threading.Thread(target=run_thread, name='LoopThread')
 t.start()
 t.join()
 print('thread %s ended' % threading.current_thread().name)
-
